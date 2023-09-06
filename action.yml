@@ -1,0 +1,9 @@
+name: 'WriteGood Linter'
+description: 'Automate checking your prose in every .md file in your repository'
+outputs:
+  suggestions:
+    description: 'Suggestions for improving writing'
+runs:
+  using: 'node20'
+  main: 'index.js'
+
